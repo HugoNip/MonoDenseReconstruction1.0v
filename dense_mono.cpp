@@ -328,3 +328,16 @@ void evaluateDepth(const cv::Mat &depth_truth,
     std::cout << "Average squared error: " << ave_depth_error_sq
               << ", average error: " << ave_depth_error << std::endl;
 }
+
+/**
+ * Read total 202 files.
+ * *** loop 1 ***
+ * Average squared error: 1.85683, average error: -1.13456
+ * *** loop 2 ***
+ * Average squared error: 1.44679, average error: -0.879464
+ * *** loop 3 ***
+ * Average squared error: 1.08111, average error: -0.63987
+ * *** loop 4 ***
+ * Average squared error: 0.906275, average error: -0.533651
+ * ...
+ */
